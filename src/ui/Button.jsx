@@ -47,7 +47,6 @@ const variations = {
     }
   `,
 };
-console.log(sizes + variations);
 const Button = styled.button`
   font-size: 1.4rem;
   border: none;
