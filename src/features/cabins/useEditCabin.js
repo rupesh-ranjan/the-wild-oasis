@@ -10,7 +10,7 @@ export function useEditCabin() {
       toast.success("Cabin is successfully updated");
       querClient.invalidateQueries({ queryKey: ["cabins"] });
     },
-    onError: () => toast.error("Error occured in creating new cabin"),
+    onError: () => toast.error("Error occured in updating cabin"),
   });
 
   return { isEditing, editCabin };
